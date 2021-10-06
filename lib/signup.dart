@@ -148,6 +148,7 @@ class SignUp extends State<_Signup> {
                                         borderSide: BorderSide(
                                       color: Colors.green,
                                     ))),
+                                obscureText: true,
                                 validator: MultiValidator([
                                   RequiredValidator(errorText: 'Required *'),
                                   MinLengthValidator(6,
@@ -170,6 +171,7 @@ class SignUp extends State<_Signup> {
                                       borderSide: BorderSide(
                                     color: Colors.green,
                                   ))),
+                              obscureText: true,
                               validator:
                                   RequiredValidator(errorText: 'Required *'),
                             ),
