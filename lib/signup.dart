@@ -76,6 +76,11 @@ class SignUp extends State<_Signup> {
                               style: const TextStyle(color: Colors.white),
                               decoration: const InputDecoration(
                                   labelText: 'Name',
+                                  prefixIcon: Icon(
+                                    Icons.person,
+                                    color: Colors.green,
+                                    size: 25,
+                                  ),
                                   labelStyle: TextStyle(
                                     fontFamily: 'Montserrat',
                                     fontSize: 25,
@@ -96,6 +101,11 @@ class SignUp extends State<_Signup> {
                                 style: const TextStyle(color: Colors.white),
                                 decoration: const InputDecoration(
                                     labelText: 'Email',
+                                    prefixIcon: Icon(
+                                      Icons.email,
+                                      color: Colors.green,
+                                      size: 25,
+                                    ),
                                     labelStyle: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontSize: 25,
@@ -118,6 +128,11 @@ class SignUp extends State<_Signup> {
                               style: const TextStyle(color: Colors.white),
                               decoration: const InputDecoration(
                                   labelText: 'Number',
+                                  prefixIcon: Icon(
+                                    Icons.phone,
+                                    color: Colors.green,
+                                    size: 25,
+                                  ),
                                   labelStyle: TextStyle(
                                     fontFamily: 'Montserrat',
                                     fontSize: 25,
@@ -138,6 +153,11 @@ class SignUp extends State<_Signup> {
                                 style: const TextStyle(color: Colors.white),
                                 decoration: const InputDecoration(
                                     labelText: 'Password',
+                                    prefixIcon: Icon(
+                                      Icons.lock_outline,
+                                      color: Colors.green,
+                                      size: 25,
+                                    ),
                                     labelStyle: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontSize: 25,
@@ -161,6 +181,11 @@ class SignUp extends State<_Signup> {
                               style: const TextStyle(color: Colors.white),
                               decoration: const InputDecoration(
                                   labelText: 'Confirm Password',
+                                  prefixIcon: Icon(
+                                    Icons.lock,
+                                    color: Colors.green,
+                                    size: 25,
+                                  ),
                                   labelStyle: TextStyle(
                                     fontFamily: 'Montserrat',
                                     fontSize: 25,

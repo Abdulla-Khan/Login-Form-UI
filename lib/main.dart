@@ -85,6 +85,11 @@ class _LoginPage extends State<LoginPage> {
                                   hintText: 'abd@gmail.com',
                                   hintStyle: TextStyle(color: Colors.white),
                                   labelText: 'Email',
+                                  prefixIcon: Icon(
+                                    Icons.email,
+                                    color: Colors.green,
+                                    size: 25,
+                                  ),
                                   labelStyle: TextStyle(
                                     fontFamily: 'Montserrat',
                                     fontSize: 25,
@@ -106,6 +111,11 @@ class _LoginPage extends State<LoginPage> {
                               style: const TextStyle(color: Colors.white),
                               decoration: const InputDecoration(
                                   labelText: 'Password',
+                                  prefixIcon: Icon(
+                                    Icons.lock,
+                                    color: Colors.green,
+                                    size: 25,
+                                  ),
                                   labelStyle: TextStyle(
                                     fontFamily: 'Montserrat',
                                     fontSize: 25,
